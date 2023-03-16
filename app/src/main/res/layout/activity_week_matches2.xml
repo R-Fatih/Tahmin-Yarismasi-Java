@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa2"
+    tools:context=".WeekMatches2">
+
+    <Button
+        android:id="@+id/kaydetbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600dp"
+        android:text="Diğer \nTahminler"
+        android:visibility="invisible">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/gerceksavebutton"
+        android:layout_width="250dp"
+        android:background="@drawable/save"
+        android:layout_height="37dp"
+        android:layout_marginLeft="160dp"
+        android:text="Kaydet"
+        android:visibility="visible">
+
+    </ImageView>
+
+    <Spinner
+        android:visibility="gone"
+        android:id="@+id/spinner"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+style="@style/mySpinnerItemStyle"
+        android:layout_marginTop="10dp" />
+    <com.harrywhewell.scrolldatepicker.DayScrollDatePicker
+        android:id="@+id/day_date_picker"
+        app:showTitle="false"
+        app:showFullDate="false"
+android:layout_marginTop="40dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ListView
+        android:id="@+id/week2list"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="116dp"
+        android:indicatorRight="?android:attr/expandableListPreferredItemIndicatorRight" />
+
+    <TextView
+        android:id="@+id/idcountdown"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="300"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/totalponts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="590dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="20dp">
+
+    </TextView>
+</RelativeLayout>

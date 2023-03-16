@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Kullanıcı adı"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/show_pass_btn"
+        android:layout_width="30dp"
+
+        android:layout_height="30dp"
+        android:layout_marginLeft="380dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/eye"
+
+        android:onClick="ShowHidePass">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Şifre"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:password="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="181dp" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="57dp"
+    android:layout_marginTop="170dp"
+    android:onClick="LoginSql"
+    android:background="@drawable/login">
+
+</ImageView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:onClick="LoginSql"
+        android:text="Giriş yap"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="316dp"
+      />
+
+    <ImageView
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="250dp"
+        android:onClick="GoReg"
+        android:text="Üye Ol"
+        android:layout_height="57dp"
+        android:background="@drawable/register"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:text="Yeni sürümü yükle"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/guncelsurum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="100.0">
+
+    </TextView>
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100.0"
+        android:id="@+id/guncelsurum2"
+        android:layout_marginTop="600dp">
+
+    </TextView>
+</RelativeLayout>

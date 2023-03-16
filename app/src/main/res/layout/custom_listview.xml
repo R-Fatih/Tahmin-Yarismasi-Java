@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/standingstakım"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"></ImageView>
+
+        <TextView
+            android:id="@+id/sıranumarası"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="150"></TextView>
+        <ImageButton
+            android:layout_marginLeft="185dp"
+            android:id="@+id/addfriend"
+            android:visibility="gone"
+            android:layout_alignTop="@+id/homteamtext"
+            android:background="@drawable/add_friend"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/homteamtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="5dp"
+            android:text="tekask1903"></TextView>
+
+        <TextView
+            android:id="@+id/awayteamtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="5dp"
+            android:text="150"></TextView>
+
+        <TextView
+            android:id="@+id/totalpoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="5dp"
+            android:text="150"></TextView>
+
+        <Button
+            android:id="@+id/matchdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="320dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="Detay"></Button>
+    </RelativeLayout>
+
+</RelativeLayout>

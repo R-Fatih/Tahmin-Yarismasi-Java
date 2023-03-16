@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@color/white2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hafta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="00dp"
+            android:layout_marginTop="20dp"
+            android:text="1"></TextView>
+
+        <ImageView
+            android:id="@+id/homeresim"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"></ImageView>
+
+        <TextView
+            android:id="@+id/hometeamisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:text="İstanbul Başakşehir">
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/white"
+
+            android:id="@+id/skor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="8dp"
+            android:imeOptions="actionDone"
+
+            android:inputType="phone"
+            android:text="1-0"></TextView>
+
+
+        <ImageView
+            android:id="@+id/awayresim"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="420dp"></ImageView>
+
+        <TextView
+            android:textColor="@color/white"
+
+            android:id="@+id/awayteamisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"
+            android:text="İstanbul Başakşehir" />
+
+        <TextView
+
+            android:id="@+id/renk"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="540dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/white2"
+            android:textAlignment="center"></TextView>
+
+        <TextView
+            android:id="@+id/renkyazı"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="555dp"
+            android:layout_marginTop="40dp"
+            android:text=""></TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

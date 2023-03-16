@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765619188761",
+    "project_id": "onesignal-2288d",
+    "storage_bucket": "onesignal-2288d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765619188761:android:0928addb31206c6485a688",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765619188761-tcivoe9ojn94sh77g7gf0jhcj686l2nu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUbLKrceuN-ikWVKWV_4pL91R847Ih1nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765619188761-tcivoe9ojn94sh77g7gf0jhcj686l2nu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

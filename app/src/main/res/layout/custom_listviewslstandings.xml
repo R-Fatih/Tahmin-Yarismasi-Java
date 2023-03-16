@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+
+    android:padding="0dp">
+
+    <RelativeLayout
+
+        android:id="@+id/linearslstand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white3"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/standsresim"
+            android:layout_width="30dp"
+
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"></ImageView>
+
+        <TextView
+            android:id="@+id/sıranumarasıslstand"
+            android:layout_width="wrap_content"
+
+
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="10"></TextView>
+
+        <TextView
+            android:id="@+id/slstandsteam"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="5dp"
+            android:text="Adana Demirspor"></TextView>
+
+        <TextView
+            android:id="@+id/slstandsoynadı"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:text="0"></TextView>
+        <RelativeLayout
+            android:layout_marginLeft="210dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/slstandingsgalip"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="5dp"
+                android:text="0"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="230dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/slstandingsberaberlik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+
+
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="0"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="250dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/slstandingsmaglu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="5dp"
+
+
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="0"></TextView>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/slstandingsattıgol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="5dp"
+
+
+            android:layout_centerVertical="true"
+            android:text="0"></TextView>
+
+        <TextView
+            android:id="@+id/slstandingyedigol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="310dp"
+
+
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            android:text="0"></TextView>
+        <RelativeLayout
+            android:layout_marginLeft="334dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/slstandingsavrj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="340dp"
+
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_centerVertical="true"
+                android:text="0"></TextView>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/slstandingpuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="387dp"
+
+
+            android:layout_marginTop="5dp"
+            android:text="0"></TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

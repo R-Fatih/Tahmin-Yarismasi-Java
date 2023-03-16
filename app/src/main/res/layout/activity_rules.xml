@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa2"
+    tools:context=".Rules">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:layout_marginTop="40dp"
+    android:text="
+    *  Maç saatine kadar tahmininizi yapabilirsiniz.\n\n
+    *  Maç skorunu doğru bilen her yarışmacı 3 puan alır.\n\n
+    *  Maç skorunu doğru tahmin edemeyen yarışmacı puan alamaz.\n\n
+    *  Maç tahmini gerçek maç skoruna en yakın olan yarışmacı 1 puan alır. \n\n
+Bu durumun gerçekleşmesi için yarışmacının
+ maçın sonucunu(Galibiyet,Beraberlik) doğru bilmesi ve tahmini ile gerçek maç skoru arasında 1 gol olmalıdır.\n\n\n
+    Deneme:"
+    >
+
+</TextView>
+    <EditText
+        android:id="@+id/edittextdenemeskor"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Skoru girin"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="345dp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="360dp"
+            android:text="BJK-FKG MS:4-1">
+
+        </TextView>
+    <TextView
+        android:id="@+id/textalpuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="360dp"
+        android:text="Alacağınız puan:">
+
+    </TextView>
+</RelativeLayout>

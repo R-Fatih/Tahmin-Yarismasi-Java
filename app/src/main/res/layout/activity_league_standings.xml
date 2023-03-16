@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa2"
+    tools:context=".LeagueStandings">
+
+    <ListView
+        android:id="@+id/listViewslstandings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/slstandstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="denbeme">
+
+
+    </TextView>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btnsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"></Button>
+    <TextView
+        android:id="@+id/sıranumarasıslstand"
+        android:layout_width="wrap_content"
+android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Sıra"></TextView>
+
+    <TextView
+        android:id="@+id/slstandsteam"
+        android:textColor="@color/white"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Takım"></TextView>
+
+    <TextView
+        android:id="@+id/slstandsoynadı"
+        android:textColor="@color/white"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="5dp"
+        android:text="O"></TextView>
+
+    <TextView
+        android:id="@+id/slstandingsgalip"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="5dp"
+        android:text="G"></TextView>
+
+    <TextView
+        android:id="@+id/slstandingsberaberlik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="5dp"
+        android:text="B"></TextView>
+
+    <TextView
+        android:id="@+id/slstandingsmaglu"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="5dp"
+        android:text="M"></TextView>
+
+    <TextView
+        android:id="@+id/slstandingsattıgol"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="5dp"
+        android:text="AG"></TextView>
+
+    <TextView
+        android:id="@+id/slstandingyedigol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="5dp"
+        android:text="YG"></TextView>
+
+    <TextView
+        android:id="@+id/slstandingsavrj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="5dp"
+        android:text="Av"></TextView>
+
+    <TextView
+        android:id="@+id/slstandingpuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+
+        android:text="Puan"></TextView>
+</RelativeLayout>

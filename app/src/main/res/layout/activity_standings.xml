@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa2"
+    tools:context=".Standings">
+    <TextView
+        android:textColor="@color/white"
+
+        android:id="@+id/ssıraisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp"
+        android:layout_marginLeft="4dp"
+        android:text="Sıra"></TextView>
+    <TextView
+        android:textColor="@color/white"
+
+        android:id="@+id/Kullanıcıisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp"
+        android:layout_marginLeft="90dp"
+        android:text="İsim"></TextView>
+    <TextView
+        android:textColor="@color/white"
+
+        android:id="@+id/Eyt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp"
+        android:layout_marginLeft="220dp"
+        android:text="Eyt"></TextView>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/TOTa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-3dp"
+        android:text="Puan"></TextView>
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+</RelativeLayout>

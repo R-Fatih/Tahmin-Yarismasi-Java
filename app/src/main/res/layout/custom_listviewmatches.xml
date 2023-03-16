@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:background="@color/white2"
+        android:orientation="vertical"
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+
+                android:id="@+id/homeresim"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"></ImageView>
+
+            <TextView
+                android:id="@+id/hometeamisim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:text="İstanbul Başakşehir"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/skor"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="8dp"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:text="1-0"
+                android:textColor="@color/white"></EditText>
+
+            <NumberPicker
+                android:id="@+id/scorehome"
+                android:layout_width="wrap_content"
+
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="-20dp"
+                android:selectionDividerHeight="00dp"
+                android:visibility="invisible">
+
+            </NumberPicker>
+
+            <NumberPicker
+                android:id="@+id/scoreaway"
+
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-20dp"
+                android:scrollbarSize="50dp"
+                android:selectionDividerHeight="00dp"
+                android:visibility="invisible"></NumberPicker>
+
+            <ImageView
+                android:id="@+id/awayresim"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="400dp"></ImageView>
+
+            <TextView
+                android:id="@+id/awayteamisim"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="20dp"
+                android:text="İstanbul Başakşehir"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tarihsaat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="473dp"
+                android:textColor="@color/white"
+
+                android:layout_marginTop="20dp"
+                android:text="19 Ocak 2022 15.00" />
+
+            <TextView
+                android:id="@+id/macsounucu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+
+                android:layout_marginLeft="618dp"
+                android:layout_marginTop="20dp"
+                android:text="1-0" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

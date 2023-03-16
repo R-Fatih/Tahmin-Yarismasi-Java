@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinnerothers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+android:id="@+id/scr"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+
+                android:layout_marginTop="-20dp"
+                android:id="@+id/rlt"
+                android:layout_width="940dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <!--
+    public String ItemRef;
+    public String Item;
+    public String Supplier;
+    public int LatestStock;
+    public int SalePrice;
+    public String BinNumber;
+    public int Balance;
+                -->
+                <TextView
+                    android:id="@+id/MSSS"
+                    android:textSize="8dp"
+                    android:text="MS"
+                    android:layout_marginLeft="153dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/yeni2list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal|vertical" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

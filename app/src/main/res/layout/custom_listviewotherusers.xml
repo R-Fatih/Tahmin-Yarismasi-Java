@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:background="@color/white2"
+        android:orientation="vertical"
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<ImageView
+    android:layout_centerVertical="true"
+    android:id="@+id/homeresim"
+    android:layout_width="40dp"
+    android:layout_height="40dp"></ImageView>
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/awayresim"
+            android:layout_width="40dp"
+            android:layout_height="40dp"></ImageView>
+        <TextView
+            android:id="@+id/hometeamisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:text="" />
+        <TextView
+            android:id="@+id/awayteamisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:text="" />
+        <TextView
+            android:id="@+id/macsounucu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

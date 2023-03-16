@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa2"
+    tools:context=".UserSettings">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="Yeni Şifre:" />
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+
+        android:text="Yeni Şifre Tekrar:" />
+
+    <TextView
+        android:layout_marginTop="120dp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+
+        android:text="Mevcut Şifre:" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Yeni Şifre">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Yeni Şifre"
+        android:id="@+id/edit2"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Mevcut Şifre"
+        android:id="@+id/edit3"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <TextView
+        android:layout_marginTop="180dp"
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Takım seçin:" />
+    <ImageView
+        android:id="@+id/usersresim"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="210dp"
+    android:layout_marginLeft="10dp">
+
+    </ImageView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teamsspinner"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp">
+
+    </Spinner>
+
+    <ImageView
+        android:id="@+id/buttonsaveuser"
+        android:layout_width="250dp"
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/save"
+        android:text="Kaydet">
+
+    </ImageView>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="Teams">
+        <item>Alanyaspor-13_2</item>
+        <item>Adana Demirspor-6</item>
+        <item>Antalyaspor-21_1</item>
+        <item>Beşiktaş-3_1</item>
+        <item>Fatih Karagümrük-62</item>
+        <item>Fenerbahçe-2_1</item>
+        <item>Galatasaray-1_4</item>
+        <item>Gaziantep-67</item>
+        <item>Giresunspor-72_1</item>
+        <item>Hatayspor-78</item>
+        <item>İstanbul Başakşehir-82</item>
+        <item>İstanbulspor-83</item>
+        <item>Kasımpaşa-90</item>
+        <item>Kayserispor-93_1</item>
+        <item>Konyaspor-101</item>
+        <item>MKE Ankaragücü-F1713</item>
+        <item>Sivasspor-129</item>
+        <item>Trabzonspor-139_1</item>
+        <item>Ümraniyespor-15577</item>
+
+
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>
